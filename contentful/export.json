@@ -1,6 +1,79 @@
 {
     "contentTypes": [
         {
+            "name": "test",
+            "description": "questo è un test",
+            "displayField": "nome",
+            "fields": [
+              {
+                "id": "nome",
+                "name": "nome",
+                "type": "Symbol",
+                "localized": false,
+                "required": false,
+                "validations": [],
+                "disabled": false,
+                "omitted": false
+              },
+              {
+                "id": "pollo",
+                "name": "pollo",
+                "type": "Location",
+                "localized": false,
+                "required": false,
+                "validations": [],
+                "disabled": false,
+                "omitted": false
+              }
+            ],
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "vsy80c4z40a8"
+                }
+              },
+              "id": "test",
+              "type": "ContentType",
+              "createdAt": "2021-01-18T00:17:12.666Z",
+              "updatedAt": "2021-01-18T00:17:13.061Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 1,
+              "publishedAt": "2021-01-18T00:17:13.061Z",
+              "firstPublishedAt": "2021-01-18T00:17:13.061Z",
+              "createdBy": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "User",
+                  "id": "6yDnrnvid8kQoU1IBLc2tK"
+                }
+              },
+              "updatedBy": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "User",
+                  "id": "6yDnrnvid8kQoU1IBLc2tK"
+                }
+              },
+              "publishedCounter": 1,
+              "version": 2,
+              "publishedBy": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "User",
+                  "id": "6yDnrnvid8kQoU1IBLc2tK"
+                }
+              }
+            }
+          },
+        {
             "sys": {
                 "space": {
                     "sys": {
