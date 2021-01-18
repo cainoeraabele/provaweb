@@ -59,6 +59,13 @@ export const pageQuery = graphql`
         }
       }
     }
+    allContentfultest(){
+      edges {
+        node {
+          nome
+        }
+      }
+    }
     allContentfulPerson(
       filter: { contentful_id: { eq: "15jwOBqpxqSAOy2eOO4S0m" } }
     ) {
