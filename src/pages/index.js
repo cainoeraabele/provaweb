@@ -59,7 +59,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allContentfultest(){
+    allContentfulTest(){
       edges {
         node {
           nome
