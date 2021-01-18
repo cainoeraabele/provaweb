@@ -59,7 +59,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    allContentfulTest(){
+    allContentfultest(
+      filter: { contentful_id: { eq: "zlzuCdJQrIUcPjlnyoFHW" } }
+    ){
       edges {
         node {
           nome
